@@ -9,34 +9,45 @@
   "categories": {
     "session.start": {
       "sounds": [
-        { "file": "sounds/start_1.mp3", "label": "Greeting 1" },
-        { "file": "sounds/start_2.mp3", "label": "Greeting 2" }
+        { "file": "sounds/ni_add_player_01.wav", "label": "Take care" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/ni_willattack_01.wav", "label": "Yes" },
+        { "file": "sounds/ni_sent_01.wav", "label": "Generous this time" },
+        { "file": "sounds/ni_siege_01.wav", "label": "Black mist will engulf" }
       ]
     },
     "task.complete": {
       "sounds": [
-        { "file": "sounds/complete_1.mp3", "label": "Done 1" },
-        { "file": "sounds/complete_2.mp3", "label": "Done 2" }
-      ]
-    },
-    "input.required": {
-      "sounds": [
-        { "file": "sounds/permission_1.mp3", "label": "Needs attention" }
+        { "file": "sounds/ni_vict_04.wav", "label": "I have silenced another" },
+        { "file": "sounds/ni_boast_01.wav", "label": "One less enemy" },
+        { "file": "sounds/ni_vict_02.wav", "label": "Watch your castle fall" }
       ]
     },
     "task.error": {
       "sounds": [
-        { "file": "sounds/error_1.mp3", "label": "Error" }
+        { "file": "sounds/ni_anger_01.wav", "label": "Do not escape your fate" },
+        { "file": "sounds/ni_anger_02.wav", "label": "We will grow another foot" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/ni_help_01.wav", "label": "Help me now" },
+        { "file": "sounds/ni_req_01.wav", "label": "I need supplies" }
       ]
     },
     "resource.limit": {
       "sounds": [
-        { "file": "sounds/limit_1.mp3", "label": "Limit hit" }
+        { "file": "sounds/ni_notsent_01.wav", "label": "Last crumbs from my plate" },
+        { "file": "sounds/ni_noattack_01.wav", "label": "Will not throw away lives" }
       ]
     },
     "user.spam": {
       "sounds": [
-        { "file": "sounds/spam_1.mp3", "label": "Too many prompts" }
+        { "file": "sounds/ni_nervous_01.wav", "label": "Watch your back, fool" },
+        { "file": "sounds/ni_kick_player_01.wav", "label": "Gone" }
       ]
     }
   }
